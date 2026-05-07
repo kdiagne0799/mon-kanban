@@ -38,15 +38,14 @@ export default function Contact() {
         {/* LIENS PRO (OPTIONNELS) */}
         <div className="contact-card">
           <h3>💼 LinkedIn</h3>
-          <p className="contact-value contact-placeholder">
-            (Ajoute ton lien si tu veux)
+          <p className="contact-value contact-placeholder"> https://www.linkedin.com/in/khadim-diagne-61aa413a5
           </p>
         </div>
 
         <div className="contact-card">
           <h3>🐙 GitHub</h3>
           <p className="contact-value contact-placeholder">
-            (Ajoute ton lien si tu veux)
+            https://github.com/kdiagne0799/mon-kanban
           </p>
         </div>
 
