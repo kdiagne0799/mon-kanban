@@ -579,9 +579,8 @@ body {
   .timeline-item.right {
     left: 0;
   }
-}
 
-@media (max-width: 600px) {
+  @media (max-width: 600px) {
   .home-title {
     font-size: 2rem;
   }
@@ -609,5 +608,15 @@ body {
   gap: 20px;
   justify-content: center;
   flex-wrap: wrap;
+
+    .contact-links {
+  display: flex;
+  gap: 22px;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
 
 }
