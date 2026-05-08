@@ -1,8 +1,8 @@
-export default function LogoKN() {
+export default function LogoKD() {
   return (
-    <div className="logo-kn glass">
-      <span className="kn-letter k">K</span>
-      <span className="kn-letter n">N</span>
+    <div className="logo-kd glass">
+      <span className="kd-letter k">K</span>
+      <span className="kd-letter n">N</span>
     </div>
   );
 }
