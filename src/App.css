@@ -603,23 +603,36 @@ body {
     width: 260px;
     height: 260px;
   }
-  .contact-links {
+
+/* ===================== CONTACT FIX (FINAL) ===================== */
+
+.contact-links {
   display: flex;
   gap: 22px;
   justify-content: center;
   align-items: stretch;
-  flex-wrap: nowrap; /* IMPORTANT : reste sur une seule ligne */
+  flex-wrap: nowrap; /* reste sur une seule ligne sur PC */
+  margin-top: 20px;
 }
 
 .contact-card {
-  flex: 1; /* les deux cartes prennent la même largeur */
+  flex: 1; /* même largeur pour les deux cartes */
   min-width: 260px; /* évite qu'elles deviennent trop petites */
 }
 
 .contact-value {
-  overflow-wrap: anywhere; /* empêche le lien de sortir de la carte */
+  overflow-wrap: anywhere; /* empêche le lien de déborder */
   word-break: break-word;
 }
 
+/* --- Version mobile (max 600px) --- */
+@media (max-width: 600px) {
+  .contact-links {
+    flex-wrap: wrap; /* sur mobile, elles passent l'une sous l'autre si nécessaire */
+  }
 
+  .contact-card {
+    min-width: 100%; /* pleine largeur sur téléphone */
+  }
 }
+
