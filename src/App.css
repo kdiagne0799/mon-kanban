@@ -617,6 +617,9 @@ body {
   flex-wrap: wrap;
   margin-top: 20px;
 }
+.contact-value {
+  overflow-wrap: anywhere;
+}
 
 
 }
