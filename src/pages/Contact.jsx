@@ -38,9 +38,10 @@ export default function Contact() {
         {/* LIENS PRO (OPTIONNELS) */}
         <div className="contact-card">
           <h3>💼 LinkedIn</h3>
-          <p className="contact-value contact-placeholder"> https://www.linkedin.com/in/khadim-diagne-61aa413a5
+          <p className="contact-value contact-placeholder">
+            https://www.linkedin.com/in/khadim-diagne-61aa413a5
           </p>
-        </div>
+        </div> </div> </div>
 
         <div className="contact-card">
           <h3>🐙 GitHub</h3>
