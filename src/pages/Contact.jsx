@@ -35,28 +35,25 @@ export default function Contact() {
           <p className="contact-value">Roanne, France</p>
         </div>
 
+
         <div className="contact-links">
-    <div className="contact-card">… LinkedIn …</div>
-    <div className="contact-card">… GitHub …</div>
+
+  <div className="contact-card">
+    <h3>💼 LinkedIn</h3>
+    <p className="contact-value">
+      https://www.linkedin.com/in/khadim-diagne-61aa413a5
+    </p>
   </div>
 
+  <div className="contact-card">
+    <h3>🐙 GitHub</h3>
+    <p className="contact-value">
+      https://github.com/kdiagne0799/mon-kanban
+    </p>
+  </div>
 
-        {/* LIENS PRO (OPTIONNELS) */}
-        <div className="contact-card">
-          <h3>💼 LinkedIn</h3>
-          <p className="contact-value contact-placeholder">
-            https://www.linkedin.com/in/khadim-diagne-61aa413a5
-          </p>
-        </div> 
+</div>
 
-        <div className="contact-card">
-          <h3>🐙 GitHub</h3>
-          <p className="contact-value contact-placeholder">
-            https://github.com/kdiagne0799/mon-kanban
-          </p>
-        </div>
-
-      </div>
 
       {/* MESSAGE DE FIN */}
       <p className="contact-footer">
