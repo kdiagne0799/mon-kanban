@@ -605,20 +605,20 @@ body {
   }
   .contact-links {
   display: flex;
-  gap: 20px;
-  justify-content: center;
-  flex-wrap: wrap;
-
-    .contact-links {
-  display: flex;
   gap: 22px;
   justify-content: center;
   align-items: stretch;
-  flex-wrap: wrap;
-  margin-top: 20px;
+  flex-wrap: nowrap; /* IMPORTANT : reste sur une seule ligne */
 }
+
+.contact-card {
+  flex: 1; /* les deux cartes prennent la même largeur */
+  min-width: 260px; /* évite qu'elles deviennent trop petites */
+}
+
 .contact-value {
-  overflow-wrap: anywhere;
+  overflow-wrap: anywhere; /* empêche le lien de sortir de la carte */
+  word-break: break-word;
 }
 
 
